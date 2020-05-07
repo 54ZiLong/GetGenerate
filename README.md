@@ -20,10 +20,10 @@ end<br>
 
 5.输出<br>
 \- (UIView *)view1 {<br>
-    if (!_view1) {<br>
-        _view1 = [[UIView alloc] init];<br>
-    }<br>
-    return _view1;<br>
+　　if (!_view1) {<br>
+　　　　 _view1 = [[UIView alloc] init];<br>
+　　}<br>
+　　return _view1;<br>
 }<br>
 <br>
 [self.view addSubview:self.view1];<br>
