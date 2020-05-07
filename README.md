@@ -19,7 +19,7 @@ oc代码格式@property (nonatomic, strong) NSObject *name;
 end<br>
 
 5.输出<br>
-/- (UIView *)view1 {<br>
+\- (UIView *)view1 {<br>
     if (!_view1) {<br>
         _view1 = [[UIView alloc] init];<br>
     }<br>
