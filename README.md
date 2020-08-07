@@ -2,7 +2,7 @@
 生成OC的view相关代码
 
 # 用途
-通过终端打印已声明的view对象（带*)的get方法及约束方法（Masonry）代码
+通过终端打印已声明的view对象（带*)的get方法及约束（Masonry）代码
 
 # 使用要求
 python3环境
@@ -12,7 +12,7 @@ oc代码格式@property (nonatomic, strong) NSObject *name;
 1.终端cd到python文件所在文件夹<br>
 2.执行 python3 GetGenerate<br>
 3.将已声明的view属性粘贴进去<br>
- 如@property (nonatomic, strong) UIView *view1;（可多条同事执行）<br>
+ 如@property (nonatomic, strong) UIView *view1;（可多条同时执行）<br>
 4.回车，输入end，回车<br>
 @property (nonatomic, strong) UIView *view1;<br>
 <br>
